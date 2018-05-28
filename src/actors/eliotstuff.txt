@@ -1,0 +1,141 @@
+actor ELBdayCake 30000
+{
+  // Height 40
+  // Radius 20
+  // +SOLID
+  States
+  {
+  Spawn:
+    ELCK A 10
+    Loop
+  }
+}
+
+actor PartyCaco : Cacodemon 30001
+{	
+	+FRIENDLY
+	+BUDDHA
+	+NOBLOOD
+  States
+  {
+  Spawn:
+    HEAD A 10 A_Look
+    Loop
+  See:
+    HEAD A 3 A_Chase
+    Loop
+  Missile:
+    HEAD BC 5 A_FaceTarget
+    HEAD D 5 Bright A_HeadAttack
+    Goto See
+  Pain:
+	ELPC A 70
+	Loop
+  Death:
+    HEAD G 8
+    HEAD H 8 A_Scream
+    HEAD IJ 8
+    HEAD K 8 A_NoBlocking
+    HEAD L -1 A_SetFloorClip
+    Stop
+  Raise:
+    HEAD L 8 A_UnSetFloorClip
+    HEAD KJIHG 8
+    Goto See
+  }
+}
+
+//using 20100 -weapons
+actor Cupcake_Gun: Weapon 30002
+{
+	Weapon.SlotNumber 3
+	Weapon.SlotPriority 1
+	Weapon.SelectionOrder 50
+	Weapon.AmmoUse 1
+	Weapon.AmmoGive 100
+	Weapon.AmmoType "Cupcake_Ammo"
+	Weapon.BobStyle Smooth
+	Weapon.BobRangeX 0.4
+	Weapon.BobRangeY 0.2
+	
+	
+	Scale .5
+	
+	Inventory.PickupMessage "Yum!"
+	
+	States
+	{
+		Spawn:
+		ELCH A -1
+		Stop
+		
+		Select:
+		ELCH A 1 A_Raise
+		Loop
+		
+		Deselect:
+		ELCH A 1 A_Lower
+		Loop
+		
+		Ready:
+		ELCH A 1 A_WeaponReady
+		Loop
+		
+		Fire:
+		PUNG A 4 A_FireCustomMissile("Cupcake_Missile",0,1,0,-6)
+		Goto Ready
+		
+		//ACS_NamedExecute("oops",0)
+		// Goto ThrowMug
+		
+		// ThrowMug:
+		// ICMF A 0 A_Playsound("weapon/impfire",CHAN_WEAPON,0.7)
+		// ICMF A 0 A_Recoil(4)
+		// ICMF A 5 A_FireCustomMissile("CoffeeMug_Missile",0,1,0,-6)
+		// ICMF A 5 A_TakeInventory("MugGun",1)
+		// Goto Ready
+	}
+	
+}
+
+actor Cupcake_Ammo : Ammo 30003
+{
+	Inventory.PickupMessage "Yummy!"
+	Inventory.Amount 100
+	Inventory.MaxAmount 999
+	Ammo.BackpackAmount 100
+	Ammo.BackpackMaxAmount 999
+	Tag "Cupcake"
+	Inventory.Icon "ELCPA0"
+	
+	States
+	{
+		Spawn:
+		ELCP A 4
+		Loop
+	}
+}
+
+
+actor Cupcake_Missile : Actor
+{
+	+RANDOMIZE
+	+FORCEPAIN
+	Projectile
+	
+	Radius 6
+	Height 4
+	Speed 8
+	Damage 1
+	
+	States
+	{
+		Spawn:
+		ELCP A 4
+		Loop
+		
+		Death:
+		ELCP A 4 Bright
+		Stop
+	}
+}

@@ -6,18 +6,29 @@
 
 ClearEpisodes
 
-Episode "test map 01"
+Episode "ELHOUSE1"
 {
 	Name = "My Project"
-}
-
-Map "test map 01" "My Custom Map"
-{
-	music = "d_dead"
-	Next = "ELHOUSE1"
 }
 
 Map "ELHOUSE1" "Eliot's House"
 {
 	music = "d_dead"
+	Next = "test map 01"
+}
+
+
+Map "test map 01" "My Custom Map"
+{
+	music = "d_dead"
+	Next = "MAP01test"
+}
+
+Map "MAP01test" "Josh's Map"
+{
+	Next = "SABMHC01"
+}
+
+Map "SABMHC01" "Arjuna's Map"
+{
 }

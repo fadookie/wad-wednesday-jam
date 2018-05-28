@@ -5,3 +5,4 @@
 //===========================================================================
 
 #include "actors/myactor.txt"
+#include "actors/eliotstuff.txt"
