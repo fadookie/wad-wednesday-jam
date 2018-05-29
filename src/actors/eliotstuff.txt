@@ -29,7 +29,10 @@ actor PartyCaco : Cacodemon 30001
     HEAD D 5 Bright A_HeadAttack
     Goto See
   Pain:
-	ELPC A 70
+	ELPC A 1 A_Playsound("el/horn",CHAN_WEAPON,1.0)
+	Goto Party
+  Party:
+  	ELPC A 35
 	Loop
   Death:
     HEAD G 8
@@ -48,11 +51,11 @@ actor PartyCaco : Cacodemon 30001
 //using 20100 -weapons
 actor Cupcake_Gun: Weapon 30002
 {
-	Weapon.SlotNumber 3
+	Weapon.SlotNumber 2
 	Weapon.SlotPriority 1
 	Weapon.SelectionOrder 50
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 100
+	Weapon.AmmoGive 50
 	Weapon.AmmoType "Cupcake_Ammo"
 	Weapon.BobStyle Smooth
 	Weapon.BobRangeX 0.4
@@ -62,11 +65,12 @@ actor Cupcake_Gun: Weapon 30002
 	Scale .5
 	
 	Inventory.PickupMessage "Yum!"
+	+INVENTORY.AUTOACTIVATE
 	
 	States
 	{
 		Spawn:
-		ELCH A -1
+		ELCP A -1
 		Stop
 		
 		Select:
@@ -101,9 +105,9 @@ actor Cupcake_Gun: Weapon 30002
 actor Cupcake_Ammo : Ammo 30003
 {
 	Inventory.PickupMessage "Yummy!"
-	Inventory.Amount 100
+	Inventory.Amount 999
 	Inventory.MaxAmount 999
-	Ammo.BackpackAmount 100
+	Ammo.BackpackAmount 999
 	Ammo.BackpackMaxAmount 999
 	Tag "Cupcake"
 	Inventory.Icon "ELCPA0"
