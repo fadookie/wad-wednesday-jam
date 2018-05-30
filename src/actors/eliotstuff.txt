@@ -135,11 +135,11 @@ actor Cupcake_Missile : Actor
 	States
 	{
 		Spawn:
-		ELCP A 4
+		ELCM A 4 Bright
 		Loop
 		
 		Death:
-		ELCP A 4 Bright
+		ELCM A 4 Bright
 		Stop
 	}
 }
