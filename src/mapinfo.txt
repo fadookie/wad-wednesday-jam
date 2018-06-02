@@ -13,7 +13,7 @@ Episode "ELHOUSE1"
 
 Map "ELHOUSE1" "Eliot's House"
 {
-	music = "d_dead"
+	music = "music/Nova_Observatory_Background.ogg"
 	Next = "test map 01"
 }
 
