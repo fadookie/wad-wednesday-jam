@@ -3,4 +3,5 @@
 // SNDINFO
 //
 //===========================================================================
+// $volume el/horn 16.0 // <- not sure why this doesn't work, maybe can't go over 1.0?
 el/horn sounds/partyhorn.wav
