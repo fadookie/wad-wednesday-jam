@@ -15,7 +15,7 @@ Map "ELHOUSE1" "Eliot's House"
 {
 	music = "music/Nova_Observatory_Background.ogg"
 	Next = "test map 01"
-	SpecialAction = "PartyCaco", "Door_Raise", 666, 64, 150
+	SpecialAction = "PartyCaco", "Door_Open", 666, 16
 }
 
 
