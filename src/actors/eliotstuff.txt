@@ -1,16 +1,3 @@
-actor ELBdayCake 30000
-{
-  // Height 40
-  // Radius 20
-  // +SOLID
-  States
-  {
-  Spawn:
-    ELCK A 10
-    Loop
-  }
-}
-
 actor PartyCaco : Cacodemon 30001
 {	
 	+FRIENDLY
@@ -111,7 +98,7 @@ actor Cupcake_Gun: Weapon 30002
 actor Cupcake_Ammo : Ammo 30003
 {
 	Inventory.PickupMessage "Yummy!"
-	Inventory.Amount 999
+	Inventory.Amount 15
 	Inventory.MaxAmount 999
 	Ammo.BackpackAmount 999
 	Ammo.BackpackMaxAmount 999
@@ -125,6 +112,30 @@ actor Cupcake_Ammo : Ammo 30003
 		Loop
 	}
 }
+
+actor Cake_Ammo : Ammo 30000
+{
+  // Height 40
+  // Radius 20
+  // +SOLID
+  Inventory.PickupMessage "Yummy!"
+  Inventory.Amount 100
+  Inventory.MaxAmount 999
+  Ammo.BackpackAmount 999
+  Ammo.BackpackMaxAmount 999
+  Tag "Cupcake"
+  
+  Inventory.PickupMessage "Strawberry, my favorite!"
+  Inventory.PickupSound "el/lg_nom"
+  
+  States
+  {
+  Spawn:
+    ELCK A 10
+    Loop
+  }
+}
+
 
 
 actor Cupcake_Missile : Actor
