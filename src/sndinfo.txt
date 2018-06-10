@@ -3,5 +3,8 @@
 // SNDINFO
 //
 //===========================================================================
-// $volume el/horn 16.0 // <- not sure why this doesn't work, maybe can't go over 1.0?
+$volume el/woosh 0.5
+el/woosh sounds/woosh.wav
 el/horn sounds/partyhorn.wav
+el/sm_nom sounds/172137__paulmorek__nom-c-01.wav
+el/lg_nom sounds/172135__paulmorek__nom-c-06.wav
