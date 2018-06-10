@@ -33,16 +33,14 @@ actor PartyCaco : Cacodemon 30001
     Goto See
   Pain:
 	ELPC A 56 A_Playsound("el/horn",CHAN_WEAPON,1.0) // Sound is 1.6 seconds * 35 tics per second = 56
-	Goto Party
-  Party:
-	ELPC B 35
-	Loop
+	ELPC B 1 A_Die
   Death:
-    HEAD G 8
-    HEAD H 8 A_Scream
-    HEAD IJ 8
-    HEAD K 8 A_NoBlocking
-    HEAD L -1 A_SetFloorClip
+    // HEAD G 8
+    // HEAD H 8 A_Scream
+    // HEAD IJ 8
+    // HEAD K 8 A_NoBlocking
+    // HEAD L -1 A_SetFloorClip
+	ELPC B -1 A_BossDeath
     Stop
   Raise:
     HEAD L 8 A_UnSetFloorClip
