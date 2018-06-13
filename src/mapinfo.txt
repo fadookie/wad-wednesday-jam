@@ -30,7 +30,7 @@ Map "AIRCOND" "Air Conditioned Nightmare"
 
 }
 
-Map "ELHOUSE1" "Eliot's House"
+Map "ELHOUSE1" "Semiautobiographical Cakeitechture"
 {
 	music = "music/Nova_Observatory_Background.ogg"
 	levelnum = 3
