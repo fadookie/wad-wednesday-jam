@@ -13,4 +13,310 @@ Texture "ELSTCO", 128, 128
 	Patch "ELSTCO", 0, 0
 }
 
+Texture "VINYL", 128, 119
+{
+	Patch "VINYL", 0, 0
+}
+
+Texture "STAIRCRP", 128, 128
+{
+	Patch "STAIRCRP", 0, 0
+}
+
+Texture "LROOMCRP", 128, 128
+{
+	Patch "LROOMCRP", 0, 0
+}
+
+Texture "WPAPER12", 128, 128
+{
+	Patch "WPAPER12", 0, 0
+}
+
+Texture "KTCHWLP", 64, 65
+{
+	Patch "KTCHWLP", 0, 0
+}
+
+Texture "WPAPER64", 64, 64
+{
+	Patch "WPAPER64", 0, 0
+}
+
+Texture "TNHJR", 68, 44
+{
+	Patch "TNHJR", 0, 0
+}
+
+Texture "BTHWP", 64, 64
+{
+	Patch "BTHWP", 0, 0
+}
+
+Texture "COUCHFBR", 64, 64
+{
+	Patch "COUCHFBR", 0, 0
+}
+
+Texture "MROOMCRP", 128, 128
+{
+	Patch "MROOMCRP", 0, 0
+}
+
+Texture "DIZZY", 76, 58
+{
+	Patch "DIZZY", 0, 0
+}
+
+Texture "MBWPR", 64, 64
+{
+	Patch "MBWPR", 0, 0
+}
+
+Texture "SONIC2", 77, 112
+{
+	Patch "SONIC2", 0, 0
+}
+
+Texture "GGROUND1", 70, 100
+{
+	Patch "GGROUND1", 0, 0
+}
+
+Texture "MPN", 83, 40
+{
+	Patch "MPN", 0, 0
+}
+
+Texture "CAR19", 256, 128
+{
+	Patch "CAR19", 0, 0
+}
+
+Texture "CAR18", 256, 128
+{
+	Patch "CAR18", 0, 0
+}
+
+Texture "CAR5", 256, 128
+{
+	Patch "CAR5", 0, 0
+}
+
+Texture "TRUCK2", 64, 128
+{
+	Patch "TRUCK2", 0, 0
+}
+
+Texture "CAR3", 256, 128
+{
+	Patch "CAR3", 0, 0
+}
+
+Texture "CAR21", 128, 128
+{
+	Patch "CAR21", 0, 0
+}
+
+Texture "CAR20", 128, 128
+{
+	Patch "CAR20", 0, 0
+}
+
+Texture "BLUSTONE", 64, 64
+{
+	Patch "BLUSTONE", 0, 0
+}
+
+Texture "BLACK", 64, 64
+{
+	Patch "BLACK", 0, 0
+}
+
+Texture "CAR28", 256, 128
+{
+	Patch "CAR28", 0, 0
+}
+
+Texture "CAR24", 256, 128
+{
+	Patch "CAR24", 0, 0
+}
+
+Texture "CAR25", 256, 128
+{
+	Patch "CAR25", 0, 0
+}
+
+Texture "CARTOP3", 64, 64
+{
+	Patch "CARTOP3", 0, 0
+}
+
+Texture "BBDSPRD", 256, 197
+{
+	Patch "BBDSPRD", 0, 0
+}
+
+Texture "BBOARD", 63, 296
+{
+	Patch "BBOARD", 0, 0
+}
+
+Texture "GMCHR", 128, 128
+{
+	Patch "GMCHR", 0, 0
+}
+
+Texture "R2", 94, 70
+{
+	Patch "R2", 0, 0
+}
+
+Texture "CYCLOP7", 128, 128
+{
+	Patch "CYCLOP7", 0, 0
+}
+
+Texture "CAR1", 64, 64
+{
+	Patch "CAR1", 0, 0
+}
+
+Texture "BLUSTEEL", 64, 112
+{
+	Patch "BLUSTEEL", 0, 0
+}
+
+Texture "BSLM1", 64, 64
+{
+	Patch "BSLM1", 0, 0
+}
+
+Texture "BSLM2", 64, 64
+{
+	Patch "BSLM2", 0, 0
+}
+
+Texture "BSLM3", 64, 64
+{
+	Patch "BSLM3", 0, 0
+}
+
+Texture "BSLM4", 64, 64
+{
+	Patch "BSLM4", 0, 0
+}
+
+Texture "BBOARDBK", 64, 40
+{
+	Patch "BBOARDBK", 0, 0
+}
+
+Texture "SRCRP4", 32, 32
+{
+	Patch "SRCRP4", 0, 0
+}
+
+Texture "WBOARD", 234, 96
+{
+	Patch "WBOARD", 0, 0
+}
+
+Texture "BCFBRIC", 128, 98
+{
+	Patch "BCFBRIC", 0, 0
+}
+
+Texture "BCABNET", 128, 128
+{
+	Patch "BCABNET", 0, 0
+}
+
+Texture "BETHE1", 63, 128
+{
+	Patch "BETHE1", 0, 0
+}
+
+Texture "PTABLE", 146, 114
+{
+	Patch "PTABLE", 0, 0
+}
+
+Texture "WBCELLS", 133, 100
+{
+	Patch "WBCELLS", 0, 0
+}
+
+Texture "DBI", 64, 19
+{
+	Patch "DBI", 0, 0
+}
+
+Texture "DJGPP", 55, 48
+{
+	Patch "DJGPP", 0, 0
+}
+
+Texture "BLS", 49, 72
+{
+	Patch "BLS", 0, 0
+}
+
+Texture "BSOFA", 49, 72
+{
+	Patch "BSOFA", 0, 0
+}
+
+Texture "MYROOMCO", 1297, 714
+{
+	Patch "MYROOMCO", 0, 0
+}
+
+Texture "ENDTXT", 710, 208
+{
+	Patch "ENDTXT", 0, 0
+}
+
+Texture "WFALL1", 64, 128
+{
+	Patch "WFALL1", 0, 0
+}
+
+Texture "WFALL2", 64, 128
+{
+	Patch "WFALL2", 0, 0
+}
+
+Texture "WFALL3", 64, 128
+{
+	Patch "WFALL3", 0, 0
+}
+
+Texture "WFALL4", 64, 128
+{
+	Patch "WFALL4", 0, 0
+}
+
+Texture "WDFLOOR", 64, 64
+{
+	Patch "WDFLOOR", 0, 0
+}
+
+Texture "LOOM", 64, 86
+{
+	Patch "LOOM", 0, 0
+}
+
+Texture "BPT", 59, 58
+{
+	Patch "BPT", 0, 0
+}
+
+Texture "BZG", 63, 38
+{
+	Patch "BZG", 0, 0
+}
+
+
 // End of texture definitions

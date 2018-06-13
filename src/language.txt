@@ -1,0 +1,16 @@
+[enu default]
+//START Mr. Friendly compatiblity stuff
+
+//Object names
+MFTXT_OBJ_NAME_Beer = "Bluejuice gone bad";
+MFTXT_OBH_NAME_PineTree = "Crunchy Cones Jr.";
+MFTXT_OBJ_NAME_BigPineTree = "Crunchy Cones Sr.";
+
+
+//Object descriptions
+MFTXT_OBJ_Desc_Beer = "Makes people mean and dumb, and sometimes silly.";
+MFTXT_OBJ_DESC_PineTree = "";
+MFTXT_OBJ_DESC_BigPineTree = "";
+
+
+//END Mr. Friendly compatibility stuff

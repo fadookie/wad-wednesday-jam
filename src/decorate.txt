@@ -6,3 +6,86 @@
 
 #include "actors/myactor.txt"
 #include "actors/eliotstuff.txt"
+
+ACTOR PineTree 2000
+{
+	Scale 2.0
+	States
+	{
+		Spawn:
+			MTR1 A -1
+			Loop	
+	}
+
+
+}
+
+ACTOR BigPineTree : PineTree 2020
+{
+	Scale 4.0
+
+}
+
+ACTOR OfficeChair 2016
+{
+	Radius 16
+	Scale 0.75
+	+SOLID
+	States
+	{
+		Spawn:
+			ZCHR A -1
+			Loop	
+	}
+
+
+}
+
+ACTOR Beer : CustomInventory 2017
+{
+  
+  Inventory.PickupMessage "Drank a beer that you really didn't need!!!"
+  +CountItem
+  
+  States
+  {
+	Spawn:
+		BON1 ABCDCB 6 
+		Loop
+	Pickup:
+		TNT1 A 0 A_SpawnItemEx ("LiverDamager", 0, 0, 10, 0, 0, 0, 0, SXF_ABSOLUTEVELOCITY)
+		Stop
+  }
+
+}
+
+ACTOR LiverDamager
+{
+  +PierceArmor
+  +FoilInvul
+  +ForceRadiusDmg
+  +Painless
+  +NoDamageThrust
+  +NoInteraction
+  +NoTimeFreeze
+  Obituary "%o is NOT drinking!  You're rude and crude!"
+  
+  States
+  {
+    Spawn:
+      TNT1 A 0
+      TNT1 A 0 A_CustomMeleeAttack (1, "", "", "Melee", 0)
+      TNT1 A 1
+      Stop
+  }
+
+}
+
+ACTOR ChickenCaco : Cacodemon 2021
+{
+	SeeSound "chckn0"
+	ActiveSound "chckn1"
+	+FRIENDLY
+
+
+}

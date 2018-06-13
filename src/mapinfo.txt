@@ -6,30 +6,50 @@
 
 ClearEpisodes
 
-Episode "ELHOUSE1"
+
+Episode "SABMHC01"
 {
-	Name = "My Project"
+	Name = "WAD Wednesday 1 Year Anniversary Mapset"
+}
+
+Map "SABMHC01" "The Great Escape"
+{
+	music = "music/OBS"
+	levelnum = 1
+	sky1 = "SKY1"
+	Next = "AIRCOND"
+}
+
+Map "AIRCOND" "Air Conditioned Nightmare"
+{
+	cluster = 1
+	levelnum = 2
+	sky1 = "SKY1"
+	music = "music/FISHER"
+	Next = "ELHOUSE1"
+
 }
 
 Map "ELHOUSE1" "Eliot's House"
 {
 	music = "music/Nova_Observatory_Background.ogg"
-	Next = "test map 01"
+	levelnum = 3
 	SpecialAction = "PartyCaco", "Door_Open", 666, 16
 }
 
 
-Map "test map 01" "My Custom Map"
+cluster 1
 {
-	music = "d_dead"
-	Next = "MAP01test"
-}
-
-Map "MAP01test" "Josh's Map"
-{
-	Next = "SABMHC01"
-}
-
-Map "SABMHC01" "Arjuna's Map"
-{
+   flat = "FLOOR4_8"
+   entertext = "AS YOU BOLDLY TRAVEL INTO THE COMPUTER",
+   "YOU REACH WORLDS WHERE NO SPACE MARINE",
+   "HAS GONE BEFORE.  SUDDENLY YOU ARE IN THE",
+   "CLUTCHES OF A PSYCHIC CYBERDEMON!",
+   "HIS PSYCHIC POWERS OVERWHELM YOU...",
+   "",
+   "YOU STARE OUT THE WINDOW FROM YOUR ROOM ",
+   "AT THE SHADY ACRES RETIREMENT COMMUNITY. ",
+   "YOU ARE LISTENING FOR THE SOUND OF YOUR ",
+   "FAMILY PULLING UP, JUST AS YOU'VE DONE ",
+   "EVERY CHRISTMAS..."  
 }

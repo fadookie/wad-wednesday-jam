@@ -8,3 +8,8 @@ el/woosh sounds/woosh.wav
 el/horn sounds/partyhorn.wav
 el/sm_nom sounds/172137__paulmorek__nom-c-01.wav
 el/lg_nom sounds/172135__paulmorek__nom-c-06.wav
+
+chckn0 sounds/CHOOK0
+chckn1 sounds/CHOOK1
+
+$ambient 1 chckn1 point periodic 17.0 1.0

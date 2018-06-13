@@ -3,3 +3,6 @@
 // ANIMDEFS
 //
 //===========================================================================
+
+flat BSLM1 range BSLM4 tics 8
+texture WFALL1 range WFALL4 tics 8
