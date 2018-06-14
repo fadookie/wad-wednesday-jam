@@ -54,7 +54,6 @@ actor PartyCaco : Cacodemon 30001
   }
 }
 
-//using 20100 -weapons
 actor Cupcake_Gun: Weapon 30002
 {
 	Weapon.SlotNumber 2
@@ -94,10 +93,8 @@ actor Cupcake_Gun: Weapon 30002
 		Loop
 		
 		Fire:
-		PUNG A 11 {
-			A_FireCustomMissile("Cupcake_Missile",0,1,0,-6);
-			A_Playsound("el/woosh",CHAN_WEAPON,1.0);
-		}
+		PUNG A 1 A_FireCustomMissile("Cupcake_Missile",0,1,0,-6)
+		PUNG A 10 A_Playsound("el/woosh",CHAN_WEAPON,1.0)
 		Goto Ready
 		
 		//ACS_NamedExecute("oops",0)
