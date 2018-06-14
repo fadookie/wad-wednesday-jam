@@ -4,8 +4,12 @@
 //
 //===========================================================================
 
-ClearEpisodes
+gameinfo {
+	// creditpage = "titlepic"
+	finalepage = "credits"
+}
 
+ClearEpisodes
 
 Episode "SABMHC01"
 {
@@ -35,8 +39,8 @@ Map "ELHOUSE1" "Semiautobiographical Cakeitechture"
 	music = "music/Nova_Observatory_Background.ogg"
 	levelnum = 3
 	SpecialAction = "PartyCaco", "Door_Open", 666, 16
+	Next = EndSequence, "credits1"
 }
-
 
 cluster 1
 {
@@ -52,4 +56,47 @@ cluster 1
    "YOU ARE LISTENING FOR THE SOUND OF YOUR ",
    "FAMILY PULLING UP, JUST AS YOU'VE DONE ",
    "EVERY CHRISTMAS..."  
+}
+
+intermission credits1 {
+    
+	// credits 1 --------------
+	Fader{
+		Background = "credits1"
+	    FadeType = FadeIn
+		Time = 2
+	}
+	
+	Image{
+		Background = "credits1"
+		Time = 3
+	}
+	
+	Fader{
+		Background = "credits1"
+		FadeType = FadeOut
+		Time = 2
+	}
+	
+	//credits 2 ------------------
+	
+	Fader{
+		Background = "credits2"
+	    FadeType = FadeIn
+		Time = 2
+	}
+	
+	Image{
+		Background = "credits2"
+		Time = 3
+	}
+	
+	Fader{
+		Background = "credits2"
+		FadeType = FadeOut
+		Time = 4
+	}
+	
+	GotoTitle{}
+	
 }
