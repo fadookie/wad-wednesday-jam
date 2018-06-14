@@ -4,7 +4,6 @@
 //
 //===========================================================================
 
-#include "actors/myactor.txt"
 #include "actors/eliotstuff.txt"
 
 ACTOR PineTree 2000
