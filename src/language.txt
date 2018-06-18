@@ -7,6 +7,7 @@ MFTXT_OBJ_NAME_PineTree = "Crunchy Cones Jr.";
 MFTXT_OBJ_NAME_BigPineTree = "Crunchy Cones Sr.";
 MFTXT_OBJ_NAME_Cupcake_Gun = "Nom";
 MFTXT_OBJ_NAME_BdayCake = "Omnomnom";
+MFTXT_OBJ_NAME_OfficeChair = "Rollie Chair";
 
 //Object descriptions
 MFTXT_OBJ_Desc_Beer = "Makes people mean and dumb, and sometimes silly.";
@@ -14,5 +15,6 @@ MFTXT_OBJ_DESC_PineTree = "";
 MFTXT_OBJ_DESC_BigPineTree = "";
 MFTXT_OBJ_DESC_Cupcake_Gun = "A tasty strawberry treat. Madballs love these.";
 MFTXT_OBJ_DESC_BdayCake = "Greenguy's favorite snack. It makes him kind of hyper.";
+MFTXT_OBJ_DESC_OfficeChair = "Weeeeeeeee!!!!";
 
 //END Mr. Friendly compatibility stuff
