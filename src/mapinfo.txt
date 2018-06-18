@@ -30,11 +30,11 @@ Map "AIRCOND" "Air Conditioned Nightmare"
 	levelnum = 2
 	sky1 = "SKY1"
 	music = "music/FISHER"
-	Next = "ELHOUSE1"
+	Next = "SEMICAKE"
 
 }
 
-Map "ELHOUSE1" "Semiautobiographical Cakeitechture"
+Map "SEMICAKE" "Semiautobiographical Cakeitechture"
 {
 	music = "music/Nova_Observatory_Background.ogg"
 	levelnum = 3
