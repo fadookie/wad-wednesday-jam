@@ -22,6 +22,8 @@ Map "SABMHC01" "The Great Escape"
 	levelnum = 1
 	sky1 = "SKY1"
 	Next = "AIRCOND"
+	exitpic = "HDYDFK"
+	Intermusic = "HDAYS"
 }
 
 Map "AIRCOND" "Air Conditioned Nightmare"
