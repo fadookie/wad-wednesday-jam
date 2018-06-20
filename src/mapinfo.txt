@@ -5,7 +5,7 @@
 //===========================================================================
 
 gameinfo {
-	// creditpage = "titlepic"
+	creditpage = "CREDIT1", "CREDIT2"
 	finalepage = "credits"
 }
 
@@ -28,6 +28,7 @@ Map "SABMHC01" "The Great Escape"
 
 Map "AIRCOND" "Air Conditioned Nightmare"
 {
+	
 	cluster = 1
 	levelnum = 2
 	sky1 = "SKY1"
