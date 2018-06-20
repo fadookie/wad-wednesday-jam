@@ -42,7 +42,7 @@ Map "SEMICAKE" "Semiautobiographical Cakeitechture"
 	music = "music/Nova_Observatory_Background.ogg"
 	levelnum = 3
 	SpecialAction = "PartyCaco", "Door_Open", 666, 16
-	Next = EndSequence, "credits1"
+	Next = EndSequence, "Credits"
 }
 
 cluster 1
@@ -61,22 +61,22 @@ cluster 1
    "EVERY CHRISTMAS..."  
 }
 
-intermission credits1 {
+intermission Credits {
     
 	// credits 1 --------------
 	Fader{
-		Background = "credits1"
+		Background = "CREDIT1"
 	    FadeType = FadeIn
 		Time = 2
 	}
 	
 	Image{
-		Background = "credits1"
-		Time = 3
+		Background = "CREDIT1"
+		Time = 6
 	}
 	
 	Fader{
-		Background = "credits1"
+		Background = "CREDIT1"
 		FadeType = FadeOut
 		Time = 2
 	}
@@ -84,18 +84,18 @@ intermission credits1 {
 	//credits 2 ------------------
 	
 	Fader{
-		Background = "credits2"
+		Background = "CREDIT2"
 	    FadeType = FadeIn
 		Time = 2
 	}
 	
 	Image{
-		Background = "credits2"
-		Time = 3
+		Background = "CREDIT2"
+		Time = 6
 	}
 	
 	Fader{
-		Background = "credits2"
+		Background = "CREDIT2"
 		FadeType = FadeOut
 		Time = 4
 	}
