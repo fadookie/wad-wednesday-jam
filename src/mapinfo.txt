@@ -28,7 +28,7 @@ Map "SABMHC01" "The Great Escape"
 
 Map "AIRCOND" "Air Conditioned Nightmare"
 {
-	
+	enterpic = "FB"
 	cluster = 1
 	levelnum = 2
 	sky1 = "SKY1"
