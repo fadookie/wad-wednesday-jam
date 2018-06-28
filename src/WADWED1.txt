@@ -1,0 +1,151 @@
+===========================================================================
+Archive Maintainer      : (special instructions if any)
+Update to               : (original filename if updating an existing file)
+Advanced engine needed  : ZDoom/GZDoom
+Primary purpose         : Single player
+===========================================================================
+Title                   : WAD Wednesday 1 Year Anniversary Mapset
+Filename                : WADWED1.PK3
+Release date            : 
+Authors                 : Arjuna  Gonzales (@SuperArjunaButt on Twitter)
+                                    Fisher
+                                    Eliot Lash
+Email Address           : arjuna.gonzales@gmail.com, fisher.wagg@gmail.com, fadookie@gmail.com (Eliot)
+Other Files By Author   : (Arjuna Gonzales) GWS.WAD, SYATAQWA.WAD (WIP at the moment, Google it), E1M2 in LIVELYUN.ZIP
+Misc. Author Info       : 
+
+Description             : 
+
+
+MAP01/SABMHC01: “The Great Escape” by Arjuna Gonzales
+A recreation of my house circa 2001, the year I first thought of game development as a thing that I could do.
+Content warning: Alcoholism and the shitty things people do when they don’t drink responsibly
+
+MAP02/AIRCOND: "Airconditioned Nightmare" by Fisher
+A short detour into the psyche of Doomguy
+
+MAP03/ELHOUSE1: "Semiautobiographical Cakeitecture" by Eliot Lash
+
+
+Additional Credits to   : Thanks to the original organizer, joshthenesnerd,
+    and the other jam participants: cambertian, rumia, and fusedtoast.
+
+
+    Even though you didn’t wind up submitting a level,
+    your participation helped us get the momentum we needed
+    to make this thing a reality.
+
+
+    Special thanks to JP LeBreton and the WAD Wednesday Community!
+
+
+    The following copyrighted assets were used with permission:
+    titlepic by beardeddoomguy
+    whooshes high 4.wav by Eliot Lash -- https://freesound.org/s/121739/
+    Nova Lab Observatory Theme by Espen Gätzschmann
+    https://freemidi.org/download2-11624-happy-birthday-birthday
+    White blood cell graphic from Blausen.com staff (2014). “Medical gallery of Blausen Medical 2014”. WikiJournal of Medicine 1 (2).
+    WFALL textures from cc4-tex.wad
+    Level transition graphic by a1337spy
+    Cacodemon active sound replacement from https://freesound.org/people/SquaredGlasses/sounds/253649/
+
+    The following public domain assets were used:
+    Pink cake by Gabrielle Nowicki         
+    https://openclipart.org/detail/23966/pink-cake
+    Cake 17 by Firkin
+    https://openclipart.org/detail/301718/cake-17
+    Nom_C_06.wav by PaulMorek -- https://freesound.org/s/172135/
+    Nom_C_01.wav by PaulMorek -- https://freesound.org/s/172137/
+    party horn 3/3 harsh by vewiu -- https://freesound.org/s/379615/
+
+
+The following assets were remixed as fair use:
+
+
+Recolored filing cabinets from HACX.WAD
+Hans Bethe photo courtesy of Cornell University
+MIDI cover of “Ocean Breathes Salty” by Modest Mouse and Happy Days theme downloaded from freemidi.org
+Fantastic Dizzy poster -- http://www.smspower.org/Scans/FantasticDizzy-SMS-EU-Poster-Back
+Sonic the Hedgehog 2 poster -- https://imgur.com/gallery/XZE2dpM
+Gain Ground cover -- http://www.nintendolife.com/reviews/2007/02/gain_ground_virtual_console
+Loom cover -- https://en.wikipedia.org/wiki/File:LOOM_Cover_Art.jpg
+Rayman 2 screenshot -- https://www.mobygames.com/game/dreamcast/rayman-2-the-great-escape/screenshots/gameShotId,19426/
+Periodic table graphic -- Frey Scientific
+
+
+Various collage snippets from:
+
+
+Sheep in the Big City
+Ed, Edd n' Eddy
+F-Zero
+Star Trek Deep Space Nine
+Dark Ages
+The Simpsons: Bart's Nightmare
+Loom
+Major Stryker
+Rocko's Modern Life
+Hey Arnold
+Flashback: The Quest for Identity
+Mega Man X2
+
+
+
+
+
+===========================================================================
+* What is included *
+
+New levels              : 3
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    :
+
+
+* Play Information *
+
+Game                    : DOOM2
+Map #                   : MAP01-MAP03
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : Mr. Friendly
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 1.5 Months
+Editor(s) used          : SLADE 3, GZDoom Builder, Pixen, GIMP, Audacity, REAPER, Bitmap Font Writer
+Known Bugs              : 
+May Not Run With        : Really old versions of ZDoom maybe
+Tested With             : ZDoom 2.8.1, GZDoom 3.3.0
+
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for
+modification or reuse.  Permissions have been obtained from original
+authors for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text
+file, with no modifications.  You may distribute this file in any
+electronic format (BBS, Diskette, CD, etc) as long as you include
+this file intact.  I have received permission from the original
+authors of any modified or included content in this file to allow
+further distribution.
+
+Multiple textures in the map “The Great Escape” were created with images from Textures.com. 
+These images may not be redistributed by default.  Please visit www.textures.com for more information.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+Web sites:
+FTP sites:
